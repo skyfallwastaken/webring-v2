@@ -108,6 +108,7 @@
 }
 
 @theme {
-  --font-sans: "Klima", sans-serif;
+  --font-sans: "Klima", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
   --color-gold: @apply bg-yellow-300;
 }
