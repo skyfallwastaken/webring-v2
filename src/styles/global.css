@@ -109,4 +109,5 @@
 
 @theme {
   --font-sans: "Klima", sans-serif;
+  --color-gold: @apply bg-yellow-300;
 }
