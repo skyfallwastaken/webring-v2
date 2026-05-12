@@ -1,4 +1,4 @@
-import members from "../members.json";
+import members from "../../members.json";
 
 export async function GET() {
   return new Response(JSON.stringify(members), {
