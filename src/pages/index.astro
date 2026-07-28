@@ -69,11 +69,7 @@ import members from "../members.json";
             </svg>
           </div>
           <div class="font-mono text-sm opacity-60 group-hover:opacity-100 break-all">
-            {member.url
-              .replace(/^https?:\/\//, "")
-              .replace("www.", "")
-              .replace(/\/$/, "")
-              .toLowerCase()}
+            {new URL(member.url).hostname.replace(/^www\./, "")}
           </div>
         </a>
       ))
